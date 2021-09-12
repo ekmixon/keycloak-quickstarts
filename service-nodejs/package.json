@@ -15,7 +15,7 @@
   "devDependencies": {
     "keycloak-request-token": "^0.1.0",
     "keycloak-client-registration": "^0.1.0",
-    "eslint": "^3.3.1",
+    "eslint": "^7.3.0",
     "eslint-config-semistandard": "^7.0.0-beta.0",
     "eslint-config-standard": "^6.0.0",
     "eslint-plugin-promise": "^3.3.0",
