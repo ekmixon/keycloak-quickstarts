@@ -7,7 +7,9 @@
     "babel": "babel --source-maps --extensions \".js,.ts,.tsx\" app/ --out-dir ../resources/",
     "babel:watch": "npm run babel -- --watch",
     "check-types": "tsc --noImplicitAny --strictNullChecks --jsx react -p ./",
-    "check-types:watch": "npm run check-types -- -w"
+    "check-types:watch": "npm run check-types -- -w",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "keywords": [],
   "author": "Stan Silvert",
@@ -18,7 +20,8 @@
     "@patternfly/react-styles": "^3.7.14",
     "react": "npm:@pika/react@^16.13.1",
     "react-dom": "npm:@pika/react-dom@^16.13.1",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -35,5 +38,6 @@
     "snowpack": "^1.7.0",
     "typescript": "^3.8.3"
   },
-  "repository": {}
+  "repository": {},
+  "snyk": true
 }
