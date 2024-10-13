@@ -8,8 +8,8 @@
   "dependencies": {
     "keycloak-connect": "keycloak/keycloak-nodejs-connect",
     "body-parser": "^1.13.3",
-    "express": "^4.13.3",
-    "express-session": "^1.14.2",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
     "cors": "^2.8.1"
   },
   "devDependencies": {
